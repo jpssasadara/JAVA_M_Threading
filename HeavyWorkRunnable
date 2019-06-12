@@ -153,7 +153,7 @@ All threads are dead, exiting main thread
 https://www.journaldev.com/1037/java-thread-wait-notify-and-notifyall-example
 https://www.journaldev.com/1061/thread-safety-in-java
 
-#############################################################################################################
+########################################producer consumer######################################################
 // Java program to implement solution of producer 
 // consumer problem. 
 import java.util.LinkedList; 
