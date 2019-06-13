@@ -277,3 +277,20 @@ public class Threadexample
 		} 
 	} 
 } 
+###########################################################################################33
+Reader Process
+The code that defines the reader process is given below:
+
+wait (mutex);
+rc ++;
+if (rc == 1)
+wait (wrt);
+signal(mutex);
+.
+.  READ THE OBJECT
+.
+wait(mutex);
+rc --;
+if (rc == 0)
+signal (wrt);
+signal(mutex);
